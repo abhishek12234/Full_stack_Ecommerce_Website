@@ -1,7 +1,7 @@
 # Full_stack_Ecommerce_Website
 Welcome to the Full Stack E-commerce Website project! This project showcases a complete e-commerce platform with a sleek user interface, comprehensive product management, secure checkout process, and robust backend functionalities.
 
-Features
+##Features
 🎨 Sleek User Interface
 Explore the modern and intuitive user interface designed with React.js. Our platform features smooth transitions and responsive layouts, ensuring an enjoyable browsing experience across all devices.
 
@@ -26,7 +26,7 @@ Amazon S3 is utilized to store and serve product images and other media files. T
 🚀 Scalability & Performance
 The platform is optimized for scalability and performance, capable of handling high traffic loads. Various techniques and best practices are implemented to deliver a seamless user experience even during peak times.
 
-Technologies Used
+##Technologies Used
 Frontend: React.js, HTML5, CSS3, JavaScript
 Backend: Postgrese SQL, FAST API
 Authentication: JWT (JSON Web Tokens)
