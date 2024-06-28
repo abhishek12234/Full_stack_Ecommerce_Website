@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+  margin: 0;
+
+  font-family: "Lato", serif;
+    letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+}
+
+.Line_top{
+  display: block;
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  top:0px;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background-color: #161616;
+  z-index: 2;
+}
+.Line_top {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f8f8f8;
+}
+.Line_top span{
+  color: #cc252c;
+}
+.logout{
+  position: absolute;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  
+  
+  
+  top: 8px;
+  right: 20px;
+}
+.logout h1{
+  font-size: 17px;
+  font-weight: 500;
+}
+.log_out_icon{
+  font-size: 20px;
+  
+}
+.log_out_icon span{
+  font-size: 15px;
+}
+code {
+
+}
+.loader_container{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  
+ 
+  z-index: 99999999;
+  
+  
+
+}
+.show_loader{
+  display: block;
+}
+.loader_inner_container{
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 60px;
+  
+  right: 40px;
+  bottom: 50px;
+  border-radius: 50%;
+  
+  
+
+}
+.loader_inner_container1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 60px;
+  min-height: 60px;
+  
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  border-radius: 50%;
+  
+  
+
+}
+.loader_inner_container_deactive{
+  display: none;
+}
+.loader_heading{
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-weight: 700;
+  color: #4e4e4e;
+  font-size: 20px;
+}
+
+
+
+
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #474747;
+ 
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+ 
+ 
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  border: 6px solid;
+  border-color: #bb0811 transparent;
+  
+  
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+.Admin_page{
+  display: flex;
+
+}
+h4,h1,h5,h3,h2,p{
+  margin: 0px !important;
+}
